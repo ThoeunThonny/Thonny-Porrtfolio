@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.backg{
+    
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+   background-position: 90%;
+    background-image: url(../img/is\ me\ \(1\).png);
+}
+@media (min-width: 1024px) {
+    .backg{
+    
+        background-position: center;
+        background-position-y: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-image: url(../img/is\ me\ \(1\).png);
+    }
+}
